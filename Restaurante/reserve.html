@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/restaurantecss.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="./index.html"><button type="button">Início</button></a></li>
+            <li><a href="./menu.html"><button type="button">Menu</button></a></li>
+            <li><a href="./reserve.html"><button type="button">Reserve</button></a></li>
+            <li><a href="./suporte.html"><button type="button">Suporte</button></a></li>
+        </ul>
+    </nav>
+    <strong>
+        <h1>Reserve</h1>
+    </strong>
+    <p>Reserve sua mesa no nosso restaurante e prepare-se para uma experiência gastronômica inesquecível. Oferecemos um
+        ambiente aconchegante, serviço impecável e um cardápio repleto de pratos deliciosos preparados com ingredientes
+        frescos e de alta qualidade. Garanta seu lugar preenchendo o formulário abaixo:</p>
+    <div class="form">
+        <form>
+            <label for="data">
+                <p>Data:</p>
+            </label>
+            <input type="date" id="data" name="data" placeholder="Selecione a data">
+            <label for="hora">
+                <p>Hora:</p>
+            </label>
+            <input type="time" id="hora" name="hora" placeholder="Selecione a hora">
+            <label for="pessoas">
+                <p>Quantidade de pessoas:</p>
+            </label>
+            <select name="pessoas" id="pessoas">
+                <option value="1">1</option>
+                <option value="1">2</option>
+                <option value="1">3</option>
+                <option value="1">4</option>
+                <option value="1">5</option>
+                <option value="1">6</option>
+                <option value="1">7</option>
+                <option value="1">8</option>
+                <option value="1">9</option>
+                <option value="1">10</option>
+            </select>
+            <p>Ambiente:</p>
+            <input type="radio" id="1andar" name="ambiente" value="Primeiro andar">
+            <label for="1andar">Primeiro andar</label><br>
+            <input type="radio" id="2andar" name="ambiente" value="Segundo andar">
+            <label for="2andar">Segundo andar</label><br>
+            <label for="especial">
+                <p>Algo mais?(Aniversário, pedido de casamento, etc...)</p>
+            </label>
+            <input type="text" id="especial" name="especial" placeholder="(Opcional)"><br>
+            <input type="submit" value="Terminar">
+        </form>
+    </div>
+</body>
+
+</html>
